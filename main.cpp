@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
 	bool  preprocess = (argc == 6 && !(strcmp(argv[1],"preprocess")));
 	bool search = (argc >= 5 && !strcmp(argv[1], "search"));
     TFiles filename;
-
+    
 	if (preprocess)
 	{
 	    if(!strcmp(argv[2], "--input") && !strcmp(argv[4], "--output"))
